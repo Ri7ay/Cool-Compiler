@@ -14,11 +14,11 @@ CFLAGS=-g
 compile: stack.s
 
 stack.s: stack.cl atoi.cl
-	${CLASSDIR}/bin/coolc stack.cl atoi.cl 
+	coolc stack.cl atoi.cl 
 
 test:	compile
 	@echo stack.test
-	${CLASSDIR}/bin/spim -file stack.s < stack.test
+	spim -file stack.s < stack.test
 
 clean :
 	rm -f *.s core *~

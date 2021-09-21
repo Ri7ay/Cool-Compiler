@@ -43,7 +43,7 @@ class Node inherits List {
 };
 
 class Main inherits IO {
-   mylist: List <- new List;
+   stack: List <- new List;
    convert: A2I <- new A2I;
 
    print_list(l : List) : Object {
@@ -110,11 +110,11 @@ class Main inherits IO {
                then end <- true
                else {
                   if str = "d"
-                     then print_list(mylist)
+                     then print_list(stack)
                      else {
                         if str = "e"
-                           then mylist <- exec(mylist)
-                           else mylist <- mylist.add(str)
+                           then stack <- exec(stack)
+                           else stack <- stack.add(str)
                         fi;
                      }
                   fi;
