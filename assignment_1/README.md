@@ -32,7 +32,7 @@ that they are read-only.
 ### To compile and run your program, type
 
 ```bash
-% gmake test
+% make test
 ```
 
 Try it now -- it should work, and print "Nothing implemented"
@@ -41,7 +41,7 @@ Try it now -- it should work, and print "Nothing implemented"
 To simply compile your program, type
 
 ```bash
-% g make compile
+% make compile
 ```
 
 Instructions for turning in the assignment will be posted on the course web page.
