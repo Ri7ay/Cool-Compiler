@@ -254,7 +254,6 @@ void GetLexems(Lexer &lex, std::ifstream &file) {
     int line = 1;
     char lit;
     int flag_cmnt = 0;
-    std::string sub_str;
 
     while (!file.eof() && file.peek() != -1) {
         file.get(lit);
