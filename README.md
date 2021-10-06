@@ -8,6 +8,6 @@ Based on the course [Compilers Alex Aiken, Stanford University](https://www.edx.
 
 ## Tasks
 
-1. Implementation of the stack machine
+1. [Implementation of the stack machine](https://github.com/Ri7ay/Cool-Compiler/tree/main/assignment_1)
 
-1. Lexer
+1. [Lexer](https://github.com/Ri7ay/Cool-Compiler/tree/main/assignment_2)
