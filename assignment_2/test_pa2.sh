@@ -3,9 +3,9 @@ then
     rm results
 fi
 
-for file in /home/zakhar/MyGits/Cool-Compiler/assignment_2/lexer-tests/*
+for file in lexer-tests/*
 do
-    diff <(lexer "$file") <(./Lexer "$file") >> results
+    diff <(lexer "$file") <(../build/Lexer "$file") >> results
 done
 
 if [ -s results ]
